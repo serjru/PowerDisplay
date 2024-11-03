@@ -3,3 +3,22 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+config.h
+src/config.h
+
+# common files to ignore
+.pio
+.vscode
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+
+# Build directory
+build/
+
+# IDE specific files
+.idea/
+*.suo
+*.user
+*.sln

@@ -6,23 +6,8 @@
 #include <time.h>
 #include "icons.h"  // Include our new icons header
 #include "battery_icon.h"  // Include our new icons header
+#include "config.h"
 
-
-// Wi-Fi and Home Assistant Configuration
-struct Config {
-    // WiFi settings
-    const char* wifi_ssid = "ubi5";
-    const char* wifi_password = "ortoclas";
-    const char* wifi_hostname = "lilygo";
-    
-    // Home Assistant settings
-    const char* ha_host = "192.168.88.138";
-    const int ha_port = 8123;
-    const char* ha_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIxZmRmNWM2MjkyMDQ0ZDRhYjU0YmJjYmQ3Zjk4Y2QxNiIsImlhdCI6MTczMDU1NzIzMCwiZXhwIjoyMDQ1OTE3MjMwfQ.1MWtEUeTWBCm6IHP7UsfbuDx5rztzHA-ZhjXvgeGjrs";
-
-    // Display update interval (in milliseconds)
-    const unsigned long update_interval = 10000;
-};
 
 
 // Sensor data structure
